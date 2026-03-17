@@ -20,10 +20,10 @@ int login()
     FILE *fp;
     int found = 0;
 
-    printf("\nEnter Username: ");
+    printf("\nEnter Username   : ");
     scanf("%s", username);
 
-    printf("Enter Password: ");
+    printf("Enter Password   : ");
     scanf("%s", password);
 
     fp = fopen("users.txt", "r");
